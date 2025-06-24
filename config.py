@@ -18,7 +18,7 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/51332f55a49e56fc28ee2-6ff539b07e6be4f749.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7970350353').split()]
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'codeflix_bots').split(',')
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'dhghythgf').split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002669902570"))
     DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002669902570"))
     
