@@ -6,7 +6,7 @@ id_pattern = re.compile(r'^.\d+$')
 class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "27704224")
-    API_HASH  = os.environ.get("API_HASH", "3q3ij.mongodb.net/?retryWrites=true&w=majority")
+    API_HASH  = os.environ.get("API_HASH", "c2e33826d757fe113bc154fcfabc987d")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7540338860:AAFSgM-h827cvQg0E8XQ-I--W-kjPqfKgyg") 
 
     # database config
